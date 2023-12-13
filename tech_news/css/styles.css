@@ -1,0 +1,186 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css);
+@font-face {
+    font-family: "poner cualquier nombre";
+    src: url("poner ruta");}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+}
+.todo{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+    margin-top: 15px;
+}
+header div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+header div span:first-child{
+    border: 1px solid ;
+    height: 20px;
+    width: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+header div span:last-child{
+    font-size: 30px;
+    font-family: fantasy;
+}
+header nav {
+   margin-bottom: 10px;
+   border-top: 0.5px solid;
+   border-bottom: 2px solid;
+   padding: 10px;
+}
+nav a i{
+    margin-right: 5px;
+}
+nav a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin: 130px;
+}
+main{
+    margin-top: 15px;
+}
+    .articulos{
+        display: grid;
+        grid-template-areas: 
+        "c4 c4 c4 c4"
+        "c5 c5 c5 c8"
+        "c6 c6 c6 c8"
+        "c7 c7 c7 c8";
+        column-gap: 15px;
+    }
+.art1{
+    grid-area: c4;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 203px;
+}
+.texto1, .texto2, .texto3, .texto4{
+    margin-left: 10px;
+}
+.texto1 h2, .texto2 h2, .texto3 h2, .texto4 h2{
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+.texto1 span, .texto2 span, .texto3 span , .texto4 span{
+margin-top: -15px;
+border-top: 1px solid;
+padding: 5px;
+}
+.texto1 p, .texto2 p, .texto3 p, .texto4 p{
+    margin-top: 10px;
+    margin-bottom:20px ;
+}
+.art1 img{
+height: 200px;
+width: 720px;
+}
+.art1 button{
+    margin-left:580px ;
+}
+.art2 {
+    grid-area: c5;
+    display: flex;
+    margin-top: 15px;
+    background-color: white;
+    height: 165px;
+    width: 150vh;
+}
+.art2 .texto2, .art3 .texto3, .art4 .texto4{
+    margin-top: 20px;
+}
+.art2 img{
+    height: 165px;
+    width: 170px;
+}
+.art3{
+    display: flex;
+    grid-area: c6;
+    margin-top: 15px;
+    background-color: white;
+    height: 165px;
+    width: 150vh;
+}
+.art3 img{
+    height: 165px;
+    width: 170px;
+}
+.art4{
+    display: flex;
+    grid-area: c7;
+    margin-top: 15px;
+    background-color: white;
+    height: 165px;
+    width: 150vh;
+}
+.art4 img{
+    height: 165px;
+    width: 170px;
+}
+.art5{
+    grid-area: c8;
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+}
+.art5 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin-top: 40px;
+    margin-bottom: -20px;
+}
+.art5 .texto5{
+    text-align: center;
+    margin-top: 40px;
+}
+.aaa {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 30px;
+    border-top:2px solid ;
+    border-bottom: 2px solid;
+}
+.aaa a{
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+    text-align: center;
+    height: 60px;
+    
+}
+.art2 button, .art3 button, .art4 button{
+    margin-left: 800px;
+}
